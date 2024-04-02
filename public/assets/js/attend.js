@@ -34,7 +34,6 @@ if (page == 'attendExam') {
 		}
 	})
 } else if (page == 'startExam') {
-
 	$('#submit_exam_form').validate({
 		submitHandler: function (form, e) {
 			e.preventDefault();
